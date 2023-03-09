@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './style.css';
+import "./style.css";
 
 const LDButton = () => {
     const [likeCount, setLikeCount] = useState(50);
@@ -57,7 +57,7 @@ const LDButton = () => {
                     onClick={handleLikeClick}
                 >
                     <i className="fa fa-thumbs-o-up fa-2x"></i>
-                    Like {likeCount}
+                    {likeCount}
                 </button>
 
                 <button
@@ -67,11 +67,11 @@ const LDButton = () => {
                     onClick={handleDisikeClick}
                 >
                     <i className="fa fa-thumbs-o-down fa-2x"></i>
-                    Dislike {dislikeCount}
+                    {dislikeCount}
                 </button>
             </div>
         </div>
     );
-}
+};
 
 export default LDButton;

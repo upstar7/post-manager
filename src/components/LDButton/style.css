@@ -1,0 +1,54 @@
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: "row";
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+
+.like-btn {
+    border: none;
+    color: #fff;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: yellowgreen;
+    border-radius: 4px;
+    padding: 6px 15px;
+    margin: 0 10px;
+}
+
+.dislike-btn {
+    border: none;
+    color: #fff;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: darkgray;
+    border-radius: 4px;
+    padding: 6px 15px;
+    margin: 0 10px;
+}
+
+.like-active {
+    background-color: #ff0063;
+}
+
+.dislike-active {
+    background-color: #394350;
+}

@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "title": "What is React and why it is used?",
+        "author": "Volodymyr",
+        "body": "React is a JavaScript library developed by Facebook which, among other things, was used to build Instagram.com. Its aim is to allow developers to easily create fast user interfaces for websites and applications alike.",
+        "createdAt": "2021-05-25"
+    },
+    {
+        "id": 2,
+        "title": "Is React backend or frontend?",
+        "author": "Peter",
+        "body": "React is a front-end JavaScript library. React is capable of making API calls (sending the request to the backend), which deal with the data. React cannot process the database or the data source itself.",
+        "createdAt": "2022-11-23"
+    },
+    {
+        "id": 3,
+        "title": "Is learning React hard?",
+        "author": "Robin",
+        "body": "Thankfully, React is easy to learn, but only once you have foundational knowledge in JavaScript. Of course, the difficulty that comes with learning anything new is somewhat subjective. Regardless of your prior experience, plenty of resources are available to help make React easier to learn.",
+        "createdAt": "2023-01-05"
+    },
+    {
+        "id": 4,
+        "title": "How long it takes to learn React?",
+        "author": "Michael",
+        "body": "You should be able to become proficient at React coding in a few months if you put in enough time each week. However, because React is updated so frequently with new enhancements to experience, your learning process will never truly be complete.",
+        "createdAt": "2022-04-05"
+
+    }
+]

@@ -4,21 +4,6 @@
     margin: 0;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn-container {
-    display: flex;
-    flex-direction: "row";
-    align-items: center;
-    padding: 10px 10px;
-    border-radius: 12px;
-}
-
 .like-btn {
     border: none;
     color: #fff;

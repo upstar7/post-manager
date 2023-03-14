@@ -48,28 +48,24 @@ const LDButton = () => {
     };
 
     return (
-        <div className="container">
-            <div className="btn-container">
-                <button
-                    className={`btn like-btn ${
-                        activeBtn === "like" ? "like-active" : ""
-                    }`}
-                    onClick={handleLikeClick}
-                >
-                    <i className="fa fa-thumbs-o-up fa-2x"></i>
-                    {likeCount}
-                </button>
+        <div className="d-flex">
+            <button
+                className={`btn like-btn ${
+                    activeBtn === "like" ? "like-active" : ""
+                }`}
+                onClick={handleLikeClick}
+            >
+                <i className="fa fa-thumbs-o-up fa-2x"></i>
+            </button>
 
-                <button
-                    className={`btn dislike-btn ${
-                        activeBtn === "dislike" ? "dislike-active" : ""
-                    }`}
-                    onClick={handleDisikeClick}
-                >
-                    <i className="fa fa-thumbs-o-down fa-2x"></i>
-                    {dislikeCount}
-                </button>
-            </div>
+            <button
+                className={`btn dislike-btn ${
+                    activeBtn === "dislike" ? "dislike-active" : ""
+                }`}
+                onClick={handleDisikeClick}
+            >
+                <i className="fa fa-thumbs-o-down fa-2x"></i>
+            </button>
         </div>
     );
 };

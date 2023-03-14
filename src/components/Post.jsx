@@ -2,16 +2,16 @@ import React from "react";
 import LDButton from "./LDButton/LDButton";
 const Post = ({ post }) => {
     return (
-        <tr>
-            <td className="text-center align-middle">{post.title}</td>
-            <td className="text-primary align-middle">{post.body}</td>
-            <td className="text-center align-middle">
+        <div className="card my-3">
+            <div className="card-header">
+                <h5 className="text-primary">{post.title}</h5>
+            </div>
+            <div className="card-body">{post.body}</div>
+            <div className="card-footer d-flex justify-content-end">
                 <LDButton />
-            </td>
-            <td className="text-center text-nowrap align-middle">
-                {post.createdAt}
-            </td>
-        </tr>
+                <div className="ml-5 my-auto">{post.createdAt}</div>
+            </div>
+        </div>
     );
 };
 

@@ -28,7 +28,7 @@ const CreatePost = (props) => {
 
     return (
         <div className="container">
-            <div className="card">
+            <div className="card my-3">
                 <div className="card-body">
                     <div className="card-text">
                         <form onSubmit={handleSubmit(onSubmit)}>

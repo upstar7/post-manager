@@ -6,7 +6,7 @@ const Navbar = () => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <NavLink to="/" className="navbar-brand text-white pr-5">
-                    Post Manager
+                    Social Feeds
                 </NavLink>
                 <div
                     className="collapse navbar-collapse"
